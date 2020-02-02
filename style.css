@@ -22,11 +22,32 @@ margin-bottom: 0%;
 
 }
 
+#mini-logo {
+  width: 35px;
+  height: 25px;
+}
+
+#pink {
+  background-color: fuchsia;
+  height: 10px;
+  width: 100%;
+}
+#orange {
+  background-color: orange;
+  height: 10px;
+  width: 100%;
+}
+
 #logo {
     margin-left: 30%;
     margin-top: 150px;
     width: 475px;
     height: 295px;
+}
+
+/* ABOUT SECTION */
+#section2 {
+  background-color: #028dbf;
 }
 #profile-picture {
     width:250px;
@@ -40,11 +61,14 @@ margin-bottom: 0%;
       width: 96%;
       height: 96%;
       margin-bottom: 10px;
+      margin-left: 25px;
     }
 }
 
 /* PORTFOLIO SECTION */
-
+#section3 {
+  background-color: #ababab;
+}
 .picbox {
   float: left;
   padding-left: 0px;
@@ -54,7 +78,32 @@ margin-bottom: 0%;
   margin-bottom: 15px;
 }
 
+/* CONTACT SECTION */
+#section41{
+  background-color: #028dbf;
+}
+
+#contact-picture {
+  margin-top: 15px;
+}
+
+label {
+  display: block;
+}
+
+.col-med-3 {
+  margin-left: 20px;
+}
+
+#form {
+  margin-left: 0px;
+}
+
+
 /* SOCIAL MEDIA SECTION */
+#section42{
+  background-color: fuchsia;
+}
   /* Style all font awesome icons */
   .fa {  
     padding: 20px;  
