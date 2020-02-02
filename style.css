@@ -12,20 +12,16 @@ margin-bottom: 0%;
   background-image: url(images/Web-Dev-BG-4.jpg);
   background-size: auto;
   height: 100vh;
-  background-size: 110% 110%;
+  background-size: 115% 115%;
   background-position: center center;
-  animation: shrink 17s infinite alternate;
+  animation: shrink 12s infinite alternate;
 }
 
 #nav-bar {
     background-color: rgba(255, 255, 255, 0.2);
-    /* opacity: 0.7; */
+
 }
 
-.centered {
-    align-content: center;
-    justify-content: center;
-}
 #logo {
     /* margin-left: 35%;
     
@@ -46,4 +42,15 @@ margin-bottom: 0%;
       height: 96%;
       margin-bottom: 10px;
     }
+}
+
+/* PORTFOLIO SECTION */
+
+.picbox {
+  float: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
