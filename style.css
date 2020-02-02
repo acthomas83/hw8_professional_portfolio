@@ -28,7 +28,7 @@ margin-bottom: 0%;
 }
 
 #pink {
-  background-color: fuchsia;
+  background-color: #ec52d8;
   height: 10px;
   width: 100%;
 }
@@ -39,15 +39,16 @@ margin-bottom: 0%;
 }
 
 #logo {
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top: 150px;
-    width: 475px;
-    height: 295px;
+    width: 800px;
+    height: auto;
 }
 
 /* ABOUT SECTION */
 #section2 {
   background-color: #028dbf;
+  color: whitesmoke;
 }
 #profile-picture {
     width:250px;
@@ -68,6 +69,7 @@ margin-bottom: 0%;
 /* PORTFOLIO SECTION */
 #section3 {
   background-color: #ababab;
+  color: whitesmoke;
 }
 .picbox {
   float: left;
@@ -81,10 +83,13 @@ margin-bottom: 0%;
 /* CONTACT SECTION */
 #section41{
   background-color: #028dbf;
+  color: whitesmoke;
 }
 
-#contact-picture {
-  margin-top: 15px;
+#contact-pic {
+  margin-top: -8px;
+  width: 365px;
+  height: auto;
 }
 
 label {
@@ -102,28 +107,6 @@ label {
 
 /* SOCIAL MEDIA SECTION */
 #section42{
-  background-color: fuchsia;
+  background-color: #ababab;
+  color: whitesmoke;
 }
-  /* Style all font awesome icons */
-  .fa {  
-    padding: 20px;  
-    font-size: 30px;  
-    width: 50px;  
-    text-align: center;  
-    text-decoration: none;
-  }
-    /* Add a hover effect if you want */
-  .fa:hover {  
-    opacity: 0.7;
-  }
-  /* Set a specific color for each brand *//* Facebook */
-  .fa-facebook {  
-    background: #3B5998;  
-    color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {  
-    background: #55ACEE;  
-    color: white;
-  } 
