@@ -6,6 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -47,7 +48,7 @@
     </div>
   </div>
   <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
-    <h1>Meet the developer</h1>
+    <h1>Meet the Developer</h1>
     <p>
       <img id="profile-picture" src="images/aaron-profile.jpg" alt="Aaron's Photo">
       <p class="text">
@@ -135,30 +136,43 @@
 
   </div>
   <div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-    <h1>Contact Submenu 1</h1>
-    <p>
-      Try to scroll this section and look at the navigation bar while
-      scrolling! Try to scroll this section and look at the navigation bar
-      while scrolling!
-    </p>
-    <p>
-      Try to scroll this section and look at the navigation bar while
-      scrolling! Try to scroll this section and look at the navigation bar
-      while scrolling!
-    </p>
+    <h1>Message Me</h1>
+    <br>
+    <div class="row">
+      <div class="col-med-3" style="float: left;">
+          <img class= "profile-pic" src="images/aaron-profile.jpg" alt="Profile Picture" style="width: 250px; height: auto;">
+      </div>
+      <div class="col-lg-3">
+          <form action="nothing.asp">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+          <br>
+          <label for="country">Country</label>
+          <select id="country" name="country">
+
+              <option value="canada">Canada</option>
+              <option value="mexico">Mexico</option>
+              <option value="usa">USA</option>
+          </select>
+          <br>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write your message here..."
+              style="height:170px"></textarea>
+          <br>  
+              <input type="submit" value="Submit">
+          </form>
+      </div>
+      <div class="col-med-3">
+          <!-- <img src="/w3images/map.jpg" style="width:100%"> -->
+      </div>
+  </div>
   </div>
   <div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
-    <h1>Contact Submenu 2</h1>
-    <p>
-      Try to scroll this section and look at the navigation bar while
-      scrolling! Try to scroll this section and look at the navigation bar
-      while scrolling!
-    </p>
-    <p>
-      Try to scroll this section and look at the navigation bar while
-      scrolling! Try to scroll this section and look at the navigation bar
-      while scrolling!
-    </p>
+    <h1>Follow Me</h1>
+    
+LinkedIn GitHub 
   </div>
 
   <script src="main.js" defer></script>
