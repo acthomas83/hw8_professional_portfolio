@@ -8,13 +8,15 @@ margin-bottom: 0%;
   height: 88%;
   top: 0;
   left: 0;
-  /* position: fixed !important; */
-  background-image: url(images/Web-Dev-BG-4.jpg);
+  background-position: 0vh !important;
+  background-image: url(images/Web-Dev-BG-5.png);
   background-size: auto;
   height: 100vh;
   background-size: 115% 115%;
-  background-position: center center;
-  animation: shrink 12s infinite alternate;
+  background-position: bottom;
+  /* animation: shrink 12s infinite alternate; */
+  animation-play-state: running;
+  animation: shrink 15s infinite alternate;
 }
 
 #nav-bar {
