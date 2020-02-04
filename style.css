@@ -1,6 +1,5 @@
 #background-animation {
-margin-top: 0%;
-margin-bottom: 0%;
+  /* background: #d6f5d6; */
   z-index: 1;
   overflow: hidden;
   /* The following styles are required for the "scroll-over" effect */
@@ -8,15 +7,15 @@ margin-bottom: 0%;
   height: 88%;
   top: 0;
   left: 0;
-  background-position: 0vh !important;
+  /* position: fixed !important; */
   background-image: url(images/Web-Dev-BG-5.png);
-  background-size: auto;
+  /* background-size: cover; */
+
   height: 100vh;
-  background-size: 115% 115%;
-  background-position: bottom;
-  /* animation: shrink 12s infinite alternate; */
-  animation-play-state: running;
-  animation: shrink 15s infinite alternate;
+  background-size: 110% 110%;
+  background-position: center center;
+  animation: shrink 17s infinite alternate;
+/* Random Background Image */
 }
 
 #nav-bar {
@@ -81,6 +80,10 @@ margin-bottom: 0%;
   position: relative;
   margin-right: 15px;
   margin-bottom: 15px;
+}
+
+.capbox {
+  
 }
 
 /* CONTACT SECTION */
