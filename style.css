@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   /* position: fixed !important; */
-  background-image: url(images/Web-Dev-BG-5.png);
+  background-image: url(images/Web-Dev-BG-5.jpg);
   /* background-size: cover; */
 
   height: 100vh;
@@ -16,6 +16,12 @@
   background-position: center center;
   animation: shrink 17s infinite alternate;
 /* Random Background Image */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #nav-bar {
@@ -40,7 +46,7 @@
 }
 
 #logo {
-    margin-left: 12%;
+    /* margin-left: 12%; */
     margin-top: 145px;
     /* width: 800px; */
     height: auto;
