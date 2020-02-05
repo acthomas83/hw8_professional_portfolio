@@ -77,7 +77,8 @@
 
 /* PORTFOLIO SECTION */
 #section3 {
-  background-color: #ababab;
+  /* background-color: #ababab; */
+  background-image: url(./images/Web-Dev-BG-5.png);
   color: whitesmoke;
 }
 .picbox {
@@ -87,6 +88,10 @@
   position: relative;
   margin-right: 15px;
   margin-bottom: 15px;
+}
+
+.card{
+  border: 0px;
 }
 
 .capbox {
@@ -124,7 +129,8 @@ label {
 
 /* SOCIAL MEDIA SECTION */
 #section42{
-  background-color: #ababab;
+  /* background-color: #ababab; */
+  background-image: url(./images/Web-Dev-BG-5.png);
   color: whitesmoke;
 }
 
