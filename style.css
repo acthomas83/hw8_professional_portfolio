@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   /* position: fixed !important; */
-  background-image: url(images/Web-Dev-BG-5.jpg);
+  background-image: url(./images/Web-Dev-BG-5.png);
   /* background-size: cover; */
 
   height: 100vh;
@@ -43,6 +43,7 @@
   background-color: orange;
   height: 10px;
   width: 100%;
+  text-align: center;
 }
 
 #logo {
@@ -125,4 +126,10 @@ label {
 #section42{
   background-color: #ababab;
   color: whitesmoke;
+}
+
+/* RESUME PAGE */
+#resume {
+  background-color: black;
+  padding-top: 75px;
 }
