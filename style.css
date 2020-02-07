@@ -4,7 +4,7 @@
 }
 
 body {
-  width: vw;
+  width: auto;
 }
 
 #background-animation {
@@ -34,7 +34,7 @@ body {
 }
 
 #nav-bar {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.605);
 }
 
 .nav-link {
@@ -233,6 +233,7 @@ label {
 
 /* RESUME PAGE */
 #resume {
-  background-color: black;
+  /* background-color: black; */
+  background-image: url(./images/Web-Dev-BG-5.png);
   padding-top: 75px;
 }
