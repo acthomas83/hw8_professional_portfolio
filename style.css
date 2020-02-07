@@ -1,3 +1,12 @@
+#favicon {
+  width: 5px;
+  height: 3px;
+}
+
+body {
+  width: vw;
+}
+
 #background-animation {
   /* background: #d6f5d6; */
   z-index: 1;
@@ -15,7 +24,7 @@
   background-size: 110% 110%;
   background-position: center center;
   animation: shrink 17s infinite alternate;
-/* Random Background Image */
+  /* Random Background Image */
 }
 
 .center {
@@ -25,13 +34,72 @@
 }
 
 #nav-bar {
-    background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+}
 
+.nav-link {
+  color: black;
 }
 
 #mini-logo {
   width: 35px;
-  height: 25px;
+  height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar-nav {
+    flex-direction: unset;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #nav-bar {
+    background-color: rgba(0, 0, 0, 0.749);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-item {
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #mini-logo {
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-link {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  #logo-sm {
+    visibility: visible;
+    margin-top: 90px;
+    height: auto;
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #logo-sm {
+    visibility: hidden;
+    margin-top: 90px;
+    height: auto;
+    width: 95%;
+  }
 }
 
 #pink {
@@ -47,11 +115,15 @@
 }
 
 #logo {
-    /* margin-left: 12%; */
-    margin-top: 145px;
-    /* width: 800px; */
-    height: auto;
+  /* margin-left: 12%; */
+  margin-top: 145px;
+  /* width: 800px; */
+  height: auto;
 }
+
+/* #logo-sm {
+  visibility: hidden;
+} */
 
 /* ABOUT SECTION */
 #section2 {
@@ -59,21 +131,41 @@
   color: whitesmoke;
 }
 #profile-picture {
-    width:250px;
-    height:250px;
-    float: left;
-    margin-right: 17px;
-    margin-bottom: 8px;
-    margin-top: 13px;
-  }
-  @media screen and (max-width: 700px){
-    #profile-picture{ 
-      width: 96%;
-      height: 96%;
-      margin-bottom: 10px;
-      margin-left: 25px;
-    }
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin-right: 17px;
+  margin-bottom: 8px;
+  margin-top: 13px;
 }
+
+@media screen and (max-width: 700px) {
+  #profile-picture {
+    width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #orange {
+    visibility: visible;
+    height: 5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #download {
+    visibility: hidden;
+  }
+}
+
+/* @media screen and (max-width: 700px){
+  #download{ 
+display: none;
+  }
+} */
 
 /* PORTFOLIO SECTION */
 #section3 {
@@ -90,16 +182,21 @@
   margin-bottom: 15px;
 }
 
-.card{
+@media screen and (max-width: 700px) {
+  #future-project {
+    display: none;
+  }
+}
+
+.card {
   border: 0px;
 }
 
 .capbox {
-  
 }
 
 /* CONTACT SECTION */
-#section41{
+#section41 {
   background-color: #028dbf;
   color: whitesmoke;
 }
@@ -128,7 +225,7 @@ label {
 }
 
 /* SOCIAL MEDIA SECTION */
-#section42{
+#section42 {
   /* background-color: #ababab; */
   background-image: url(./images/Web-Dev-BG-5.png);
   color: whitesmoke;
